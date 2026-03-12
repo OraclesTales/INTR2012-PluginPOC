@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Heroes Taking a 0.5",
+    "year": "Jul 5, 2025",
+    "image": "css/images/0.5.png"
+  },
+  {
+    "name": "Arthur Morgan Portrait",
+    "year": "Aug 11, 2025",
+    "image": "css/images/arthur.png"
+  },
+  {
+    "name": "Harbinger Mock Comic Cover",
+    "description": ".",
+    "year": "Dec 15, 2025",
+    "image": "css/images/harbinger.png"
+  },
+  {
+    "name": "Best Friends Forever!",
+    "description": "",
+    "year": "Sem 2, 2025",
+    "image": "css/images/bffs.png"
+  }
+]

@@ -1,0 +1,124 @@
+@font-face {
+    font-family: "ledlight";
+    src: url('fonts/LEDLIGHT.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "2k12";
+    src: url('fonts/The\ 2K12.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "dotfont";
+    src: url('fonts/DOTFONT-.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "bluescreen";
+    src: url('fonts/Blue\ Screen\ Personal\ Use.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h2 {
+    color: #fff0c8;
+    font-family: "2k12";
+    font-size: 50px;
+}
+
+h4 {
+    font-family: "dotfont";
+    font-size: 30px;
+}
+p#desc {
+    font-family: "bluescreen";
+    font-size: 20px;
+    color: rgb(255, 242, 128);
+}
+
+p {
+    font-family: "dotfont";
+    font-size: 20px;
+    color: rgb(255, 242, 128);
+}
+
+
+.active {
+    text-decoration: underline;
+}
+
+body {
+    background-image: url('images/screen-texture-p.jpg');
+    background-size: cover;
+}
+
+.heading {
+    background-color: rgb(30, 22, 73);
+    padding: 20px;
+    margin: 0;
+}
+
+.row {
+    background-color: rgb(17, 19, 48);
+    padding: 20px;
+    margin: 0;
+}
+
+.col {
+    float: center;
+    width: 40%;
+    height: max-content;
+    padding: 5px;
+}
+
+.card:hover {
+    background-color: rgb(24, 28, 59);
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+}
+.btn {
+    background-color: rgb(13, 16, 54);
+    color: rgb(255, 251, 194);
+    font-family: "bluescreen";
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+.btn:active {
+    background-color: rgb(134 51 51);
+    color: rgb(219, 218, 221);
+}
+
+.btn:hover {
+    background-color: rgb(93, 106, 150);
+    color: rgb(219, 218, 221);
+}
+.btn i {
+    color: rgb(255, 251, 194);
+    font-size: 20px;
+}
+
+.card {
+    color: rgb(255, 242, 128);
+    background-color: rgb(21, 25, 44);
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+    
+}
+
+text {
+    padding: 20px;
+}
+#left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
